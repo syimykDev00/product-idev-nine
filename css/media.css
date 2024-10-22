@@ -1,0 +1,365 @@
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+    .header-group {
+        display: none;
+    }
+    .hero {
+        flex-direction: column;
+    }
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .management {
+        flex-direction: column-reverse;
+    }
+    .management-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .customer {
+        flex-direction: column;
+    }
+    .customer-text {
+        padding-top: 25px;
+    }
+    .collaborative {
+        flex-direction: column-reverse;
+    }
+    .collaborative-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .collaborative-text p {
+        text-align: center;
+    }
+    .collaborative-text h6 {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .collaborative-text h1 {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .price-general {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .price-block {
+        margin-bottom: 30px;
+    }
+    .say-general {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .say-block {
+        margin-bottom: 30px;
+    }
+    .join-block {
+        padding: 20px 0 20px 40px;
+        width: 90%;
+    }
+    .join-block img {
+        width: 345px;
+    }
+    .burger-menu {
+        display: block;
+    }
+}
+
+@media (max-width: 992px) {
+    .product-general {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .product-group {
+        padding-bottom: 30px;
+    }
+    .join-block {
+        padding: 20px 0 20px 30px;
+        width: 90%;
+    }
+    .join-block img {
+        width: 315px;
+    }
+}
+
+@media (max-width: 768px) {
+    .process-general-one {
+        flex-direction: column;
+    }
+    .process-general-two {
+        flex-direction: column-reverse;
+    }
+    .join-block {
+        padding: 30px 0;
+        flex-direction: column;
+        height: 100%;
+    }
+    .join-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .joint-text h4 {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .footer-general {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer-inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero img {
+        width: 90%;
+    }
+    .product h1 {
+        width: 90%;
+    }
+    .management img {
+        width: 90%;
+    }
+    .customer img {
+        width: 90%;
+    }
+    .customer-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .icons-general h4 {
+        padding-left: 15px;
+    }
+    .collaborative img {
+        width: 90%;
+    }
+    .process p {
+        width: 90%;
+    }
+    .join-text h4 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 450px) {
+    .hero-text h1 {
+        font-size: 36px;
+        width: 90%;
+        line-height: 53px;
+    }
+    .hero-text p {
+        width: 90%;
+    }
+    .product-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .management-text p {
+        width: 90%;
+    }
+    .management-text h6 {
+        width: 90%;
+    }
+    .customer-text p {
+        width: 90%;
+    }
+    .icons-general {
+        flex-direction: column;
+    }
+    .icons-general h4 {
+        padding-top: 15px;
+    }
+    .collaborative-text p {
+        width: 90%;
+    }
+    .process-image img {
+        width: 92px;
+        height: 92px;
+    }
+    .process-text {
+        width: 254px;
+        height: 59px;
+        text-align: center;
+    }
+    .process-text h3 {
+        width: 90%;
+        font-size: 15px;
+    }
+    .contents p {
+        width: 90%;
+    }
+    .footer-general {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-icon {
+        padding-bottom: 20px;
+    }
+    .footer-navbar {
+        text-align: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .footer h6 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .process h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-buttons {
+        flex-direction: column;
+    }
+    .hero-buttons a ion-icon {
+        padding: 0 8px 0 0;
+    }
+    .hero-buttons button {
+        margin-bottom: 20px;
+    }
+    .product h1 {
+        font-size: 30px;
+    }
+    .management-text h1 {
+        font-size: 30px;
+    }
+    .customer-text h1 {
+        font-size: 30px;
+    }
+    .icons-general h4 {
+        width: 85%;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    .process-image img {
+        width: 82px;
+        height: 82px;
+    }
+    .process-text {
+        width: 234px;
+        height: 52px;
+        text-align: center;
+    }
+    .contents h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 375px) {
+    .product h1 {
+        font-size: 27px;
+        line-height: 43px;
+    }
+    .customer-text p {
+        width: 85%;
+    }
+    .icons-general h4 {
+        width: 80%;
+    }
+    .process-text {
+        width: 214px;
+        height: 52px;
+        text-align: center;
+    }
+    .contents h1 {
+        font-size: 30px;
+    }
+    .price-block {
+        width: 300px;
+        height: 456px;
+    }
+    .footer-inputs input {
+        width: 295px;
+    }
+}
+
+@media (max-width: 320px) {
+    .hero-text h1 {
+        font-size: 36px;
+        width: 90%;
+        line-height: 50px;
+    }
+    .customer-text h1 {
+        font-size: 27px;
+    }
+    .customer-text p {
+        width: 75%;
+    }
+    .icons-general h4 {
+        width: 75%;
+    }
+    .process-image img {
+        width: 70px;
+        height: 70px;
+    }
+    .process-text h3 {
+        width: 85%;
+        font-size: 14px;
+    }
+    .process-text {
+        width: 184px;
+        height: 52px;
+        text-align: center;
+    }
+    .contents h1 {
+        text-align: center;
+    }
+    .contents p {
+        text-align: center;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .price-block {
+        width: 285px;
+        height: 456px;
+    }
+    .say-block {
+        width: 257px;
+        height: 242px;
+    }
+    .say-block h6 {
+        width: 245px;
+    }
+    .join-block img {
+        width: 100%;
+    }
+    .join-text h4 {
+        font-size: 29px;
+    }
+    .footer-inputs input {
+        width: 255px;
+    }
+}
